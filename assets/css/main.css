@@ -3907,3 +3907,35 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Jan addition */
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px dotted black;
+	}
+	
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 400px;
+		background-color: #3c026bb2;
+		border-style: solid;
+		border-radius: 15px;
+		border-width: 2px;
+		border-color:lightslategrey;
+		color: #ffffff;
+		text-align: center;
+		
+		padding: 5px 0;
+	
+		/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+	}
+	
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+		bottom: 110%;
+		left: 0%;
+	}	
